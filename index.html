@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Desafio Sidebar</title>
+  </head>
+  <body>
+    <div class="dashboard-menu">
+      <nav class="sidebar-nav">
+        <div class="sidebar-top">
+          <a href="#"> <img src="./images/logo.svg" alt="Logo" /></a>
+          <a href="#"> <img src="./images/menu.svg" alt="Menu" /></a>
+        </div>
+        <div class="sidebar-main">
+          <ul>
+            <li>
+              <div class="input">
+                <label for="search"></label>
+                <input
+                  id="search"
+                  name="search"
+                  type="text"
+                  placeholder="Buscar"
+                />
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/grid.svg" alt="Dashboard" />Dashboard
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./images/pet.svg" alt="Bicho de estimação" />Pets
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./images/user.svg" alt="Clientes" />Clientes
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./images/vet.svg" alt="Veterinários" />Vet
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="./images/settings.svg" alt="Ajustes" />Ajustes
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="profile">
+            <img src="./images/avatar.jpg" alt="Veterinária" />
+          </div>
+          <div class="profile-details">
+            <h5>Eleanor Pena</h5>
+            <span>Veterinária</span>
+          </div>
+
+          <a href="#" class="logout">
+            <img src="./images/log-out.svg" alt="Sair" />
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <header class="dashboard-area">
+        <h2>Dashboard</h2>
+      </header>
+    </main>
+  </body>
+</html>
