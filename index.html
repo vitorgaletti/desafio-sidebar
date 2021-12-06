@@ -17,8 +17,12 @@
     <div class="dashboard-menu">
       <nav class="sidebar-nav">
         <div class="sidebar-top">
-          <a href="#"> <img src="./images/logo.svg" alt="Logo" /></a>
-          <a href="#"> <img src="./images/menu.svg" alt="Menu" /></a>
+          <a href="#">
+            <img class="logo" src="./images/logo.svg" alt="Logo"
+          /></a>
+          <a href="#" class="menu">
+            <img src="./images/menu.svg" alt="Menu"
+          /></a>
         </div>
         <div class="sidebar-main">
           <ul>
@@ -26,7 +30,7 @@
               <div class="input">
                 <label for="search"></label>
                 <input
-                  id="search"
+                  class="search"
                   name="search"
                   type="text"
                   placeholder="Buscar"
@@ -35,7 +39,11 @@
             </li>
             <li>
               <a href="#">
-                <img src="./images/grid.svg" alt="Dashboard" />Dashboard
+                <img
+                  src="./images/grid.svg"
+                  alt="Dashboard"
+                  title="Dashboard"
+                />Dashboard
               </a>
             </li>
 
@@ -69,6 +77,7 @@
           <div class="profile">
             <img src="./images/avatar.jpg" alt="Veterinária" />
           </div>
+
           <div class="profile-details">
             <h5>Eleanor Pena</h5>
             <span>Veterinária</span>
@@ -81,10 +90,12 @@
       </nav>
     </div>
 
-    <main>
+    <main class="">
       <header class="dashboard-area">
         <h2>Dashboard</h2>
       </header>
     </main>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
